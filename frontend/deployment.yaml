@@ -20,7 +20,7 @@ spec:
       - name: web-app
         # Replace this with your actual Docker image URL when you have one!
         # For now, this just runs a standard NGINX web server to test it.
-        image: 989496899166.dkr.ecr.us-east-1.amazonaws.com/timepass:a9439da1285ad08783dc7bbca3216119d596a8d3
+        image: 989496899166.dkr.ecr.us-east-1.amazonaws.com/timepass:39c3b85e198bce310a7d391279e700cd60cc41c2
         ports:
         - containerPort: 80
 
